@@ -15,3 +15,4 @@ nltk==3.5
 lexnlp==1.8.0
 textract==1.6.3
 wget==3.2
+urllib3>=1.26.5 # not directly required, pinned by Snyk to avoid a vulnerability
