@@ -16,3 +16,5 @@ wget==3.2
 utils==1.0.1
 textblob==0.15.3
 requests==2.23.0
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
+wheel>=0.38.0 # not directly required, pinned by Snyk to avoid a vulnerability
