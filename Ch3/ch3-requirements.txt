@@ -1,11 +1,15 @@
-numpy==1.19.5
+numpy==1.22.2
 pandas==1.1.5
 scikit-learn==0.21.3
 wget==3.2
 psutil==5.4.8
 gensim==3.6.0
 spacy==2.2.4
-requests==2.23.0
+requests==2.32.2
 nltk==3.2.5
 matplotlib==3.2.2
 tensorflow==1.14.0
+certifi>=2024.7.4 # not directly required, pinned by Snyk to avoid a vulnerability
+idna>=3.7 # not directly required, pinned by Snyk to avoid a vulnerability
+scipy>=1.10.0rc1 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=1.26.19 # not directly required, pinned by Snyk to avoid a vulnerability
