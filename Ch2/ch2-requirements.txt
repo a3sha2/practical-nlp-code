@@ -16,3 +16,5 @@ wget==3.2
 utils==1.0.1
 textblob==0.15.3
 requests==2.23.0
+protobuf>=4.25.8 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.5.0 # not directly required, pinned by Snyk to avoid a vulnerability
